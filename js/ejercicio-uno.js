@@ -10,9 +10,9 @@ if(edad > 18  && edad <= 70){
 else if(edad < 18 && edad > 0){
  document.write('Usted es menor de edad por lo tanto NO puede conducir')
  }  
- else if(edad = 0 || edad > 120){
+ else if((edad = 0 )|| edad > 120){
  document.write('Usted ha ingresado un numero invalido')
  } 
- else if(edad > 70 && edad < 130){
+ else if(edad > 70 && edad < 120){
  document.write('Usted puede conducir bajo su responsabilidad acreditando de forma anual su aptitud para esto. Se recomienda seguir estas indicaciones para preservar su seguridad')
 }
