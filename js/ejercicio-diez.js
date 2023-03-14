@@ -6,7 +6,7 @@
 
 let filas = prompt('Ingrese el número de filas');
 let columnas = prompt('Ingresar el número de columnas')
-let celdas = "";
+
 console.log(filas)
 
 
@@ -17,10 +17,9 @@ for(let indiceFilas=0; indiceFilas < filas; indiceFilas++){
         //celdas
        for( let indiceColumnas=0; indiceColumnas < columnas; indiceColumnas++){
         document.write('<td>')
-         for(let contenidoCeldas=1; contenidoCeldas <celdas; contenidoCeldas--){
-            document.write(celdas)
-         }
-        document.write('</td>')
+         let indiceCeldas = (filas * columnas) - indiceColumnas;
+            document.write(indiceCeldas);
+            document.write('</td>')
         }
     document.write('</tr>')
 }
