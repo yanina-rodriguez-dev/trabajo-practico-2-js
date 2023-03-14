@@ -2,8 +2,7 @@
 
 let cadena = prompt("Ingresa una cadena de texto:");
 
-
- resultado = "";
+let resultado = "";
 
 for (let i = 0; i < cadena.length; i++) {
   resultado += cadena.charAt(i);
